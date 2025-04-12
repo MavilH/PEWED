@@ -7282,6 +7282,10 @@ h5 {
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    min-width: 100vw;
+    max-width: 100vw;
+  }
   .contain-header {
     display: flex;
     flex-direction: column;
@@ -7291,6 +7295,38 @@ h5 {
     width: 40%;
   }
   .info {
-    width: 25%;
+    width: 45%;
+    margin-right: 5%;
+  }
+  .content-menu {
+    display: block;
+    /* justify-content: center; */
+  }
+  .content-left {
+    margin-left: 0px;
+    margin: 10px;
+  }
+  .content-right {
+    margin: 10px;
+  }
+  .content-right-img img {
+    width: 100%;
+  }
+
+  .big-title {
+    width: 100%;
+  }
+
+  .tour {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .tour-description {
+    width: 100%;
+  }
+  .booknow {
+    margin-left: 38%;
   }
 }
