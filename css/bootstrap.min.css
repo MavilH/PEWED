@@ -7157,6 +7157,8 @@ button.close {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   min-width: 1366px;
   max-width: 1366px;
   min-height: 100vh;
@@ -7271,9 +7273,10 @@ button.close {
   margin-bottom: 10px;
 }
 
-.footer {
+.content-footer {
   background-color: #0ec1c4;
   height: 100px;
+  margin-top: auto;
 }
 .footer p,
 h5 {
@@ -7295,7 +7298,7 @@ h5 {
     width: 40%;
   }
   .info {
-    margin-right: 5%;
+    margin-right: 40px;
   }
   .content-menu {
     display: block;
